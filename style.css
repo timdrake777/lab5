@@ -11,6 +11,7 @@ button {
 	outline: none;
 	border: none;
 	cursor: pointer;
+	padding: 0;
 }
 
 p {
@@ -83,22 +84,94 @@ ul,li{
 }
 
 .first-song-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 450px;
-	height: 80px;
+	height: 60px;
 	background-color: #939393;
 	margin: 0 auto;
 }
 
 .second-song-block {
 	width: 450px;
-	height: 80px;
+	height: 60px;
 	background-color: #717070;
 	margin: 0 auto;
 }
 
 .third-song-block {
 	width: 450px;
-	height: 80px;
+	height: 60px;
 	background-color: #474747;
 	margin: 0 auto;
+}
+
+/*Song Blocks*/
+
+.songs-menu h2 {
+	margin-bottom: 5px;
+	color: #FFFFFF;
+}
+
+.play-button {
+	margin-right: auto;
+	margin-left: 15px;
+	width: 25px;
+	height: 25px;
+}
+
+.song-status {
+	margin-left: auto;
+	margin-right: 20px;
+	width: 19px;
+	height: 19px;
+	border-radius: 20px;
+	background-color: #B0EE00;
+}
+
+/*--- First Song Block ---*/
+
+
+
+/*Piano*/
+
+.piano {
+  display: flex;
+}
+
+.key {
+  height: calc(var(--width) * 3.30);
+  width: var(--width);
+}
+
+.white {
+  --width: 75px;
+  background-color: #F3F3F3;
+  border: 1px solid #C4C4C4;
+}
+
+.first-key {
+	border-radius: 0px 0px 0px 5px;
+}
+
+.last-key {
+	border-radius: 0px 0px 5px 0px;
+}
+
+.white.active {
+  background-color: #CCC;
+}
+
+.black {
+  --width: 40px;
+  background-color: #474747;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.black.active {
+  background-color: #333;
 }
