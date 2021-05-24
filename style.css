@@ -1,0 +1,104 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+button {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h1 span {
+	display: block;
+}
+
+ul,li{
+	display: block;
+}
+
+/*Sections*/
+
+.main {
+	margin: 0 auto;
+	width: 1200px;
+	display: flex;
+}
+
+.left-section {
+	width: 50%;
+}
+
+.right-section {
+	width: 50%;
+}
+
+.nav {
+	margin: 0 auto;
+	width: 90%;
+	justify-content: center;
+}
+
+
+/*Left Section*/
+
+.piano {
+	margin-top: 90px;
+	height: 250px;
+	width: 540px;
+	background-color: #F3F3F3;
+} 
+
+.complete-progress {
+	margin-top: 50px;
+	height: 150px;
+	width: 540px;
+	background-color: #C0FF0E;
+	border-radius: 10px;
+}
+
+/*Right Section*/
+
+.songs-menu {
+	margin-top: 90px;
+}
+
+.first-song-block {
+	width: 450px;
+	height: 80px;
+	background-color: #939393;
+	margin: 0 auto;
+}
+
+.second-song-block {
+	width: 450px;
+	height: 80px;
+	background-color: #717070;
+	margin: 0 auto;
+}
+
+.third-song-block {
+	width: 450px;
+	height: 80px;
+	background-color: #474747;
+	margin: 0 auto;
+}
